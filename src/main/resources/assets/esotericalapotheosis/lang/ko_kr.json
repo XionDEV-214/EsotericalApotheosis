@@ -1,0 +1,16 @@
+{
+  "item.esotericalapotheosis.artifact_material": "신비한 화염의 돌",
+  "item.esotericalapotheosis.heirloom_material": "심판의 코어",
+  "item.esotericalapotheosis.esoteric_material": "혈마의 수정",
+  "item.esotericalapotheosis.absolution_material": "전지의 주괴",
+  "item.apotheosis.gem.esotericalapotheosis:artifact": "정화된 %s",
+  "item.apotheosis.gem.esotericalapotheosis:heirloom": "정제된 %s",
+  "item.apotheosis.gem.esotericalapotheosis:esoteric": "초이온화된 %s",
+  "item.apotheosis.gem.esotericalapotheosis:absolution": "전우주적 %s",
+  "tooltip.esotericalapotheosis.reforge_table.desc": "고대를 넘어선 재련을!",
+  "tooltip.esotericalapotheosis.reforge_table.desc2": "%s까지 지원합니다.",
+  "rarity.esotericalapotheosis:artifact": "유물",
+  "rarity.esotericalapotheosis:heirloom": "가보",
+  "rarity.esotericalapotheosis:esoteric": "비밀",
+  "rarity.esotericalapotheosis:absolution": "고해"
+}

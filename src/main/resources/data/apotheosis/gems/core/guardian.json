@@ -1,0 +1,102 @@
+{
+    "variant": "guardian",
+    "weight": 10,
+    "quality": 0,
+    "dimensions": [],
+    "bonuses": [
+        {
+            "type": "apotheosis:attribute",
+            "gem_class": {
+                "key": "core_armor",
+                "types": [
+                    "chestplate",
+                    "leggings"
+                ]
+            },
+            "attribute": "minecraft:generic.armor",
+            "operation": "ADDITION",
+            "values": {
+                "common": 0.5,
+                "uncommon": 1,
+                "rare": 2.5,
+                "epic": 4,
+                "mythic": 6,
+                "ancient": 8,
+                "esotericalapotheosis:artifact": 10.0,
+                "esotericalapotheosis:heirloom": 12.0,
+                "esotericalapotheosis:esoteric": 14.0,
+                "esotericalapotheosis:absolution": 16.0
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "gem_class": {
+                "key": "light_weapon",
+                "types": [
+                    "sword",
+                    "trident"
+                ]
+            },
+            "attribute": "attributeslib:life_steal",
+            "operation": "ADDITION",
+            "values": {
+                "common": 0.05,
+                "uncommon": 0.1,
+                "rare": 0.15,
+                "epic": 0.2,
+                "mythic": 0.25,
+                "ancient": 0.3,
+                "esotericalapotheosis:artifact": 0.38,
+                "esotericalapotheosis:heirloom": 0.45,
+                "esotericalapotheosis:esoteric": 0.53,
+                "esotericalapotheosis:absolution": 0.6
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "gem_class": {
+                "key": "heavy_weapon",
+                "types": [
+                    "heavy_weapon"
+                ]
+            },
+            "attribute": "attributeslib:overheal",
+            "operation": "ADDITION",
+            "values": {
+                "common": 0.05,
+                "uncommon": 0.1,
+                "rare": 0.15,
+                "epic": 0.2,
+                "mythic": 0.25,
+                "ancient": 0.3,
+                "esotericalapotheosis:artifact": 0.38,
+                "esotericalapotheosis:heirloom": 0.45,
+                "esotericalapotheosis:esoteric": 0.53,
+                "esotericalapotheosis:absolution": 0.6
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "gem_class": {
+                "key": "shield",
+                "types": [
+                    "shield"
+                ]
+            },
+            "attribute": "minecraft:generic.armor",
+            "operation": "MULTIPLY_TOTAL",
+            "values": {
+                "common": 0.05,
+                "uncommon": 0.1,
+                "rare": 0.2,
+                "epic": 0.25,
+                "mythic": 0.3,
+                "ancient": 0.45,
+                "esotericalapotheosis:artifact": 0.56,
+                "esotericalapotheosis:heirloom": 0.68,
+                "esotericalapotheosis:esoteric": 0.79,
+                "esotericalapotheosis:absolution": 0.9
+            }
+        }
+    ]
+}

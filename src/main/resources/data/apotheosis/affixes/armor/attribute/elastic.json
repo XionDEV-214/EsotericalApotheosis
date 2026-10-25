@@ -1,0 +1,60 @@
+{
+    "type": "apotheosis:attribute",
+    "attribute": "forge:step_height_addition",
+    "operation": "ADDITION",
+    "values": {
+        "common": {
+            "min": 0.5,
+            "steps": 1,
+            "step": 0
+        },
+        "uncommon": {
+            "min": 0.5,
+            "steps": 1,
+            "step": 0
+        },
+        "rare": {
+            "min": 0.5,
+            "steps": 3,
+            "step": 0.25
+        },
+        "epic": {
+            "min": 0.5,
+            "steps": 3,
+            "step": 0.25
+        },
+        "mythic": {
+            "min": 1,
+            "steps": 1,
+            "step": 0.5
+        },
+        "ancient": {
+            "min": 1.5,
+            "steps": 3,
+            "step": 0.25
+        },
+        "esotericalapotheosis:artifact": {
+            "min": 1.88,
+            "steps": 4,
+            "step": 0.312
+        },
+        "esotericalapotheosis:heirloom": {
+            "min": 2.25,
+            "steps": 4,
+            "step": 0.375
+        },
+        "esotericalapotheosis:esoteric": {
+            "min": 2.62,
+            "steps": 5,
+            "step": 0.438
+        },
+        "esotericalapotheosis:absolution": {
+            "min": 3.0,
+            "steps": 6,
+            "step": 0.5
+        }
+    },
+    "types": [
+        "boots"
+    ]
+}

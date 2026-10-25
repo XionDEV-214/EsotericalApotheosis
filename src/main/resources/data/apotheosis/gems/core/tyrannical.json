@@ -1,0 +1,148 @@
+{
+    "variant": "tyrannical",
+    "weight": 10,
+    "quality": 0,
+    "unique": true,
+    "dimensions": [],
+    "bonuses": [
+        {
+            "type": "apotheosis:attribute",
+            "gem_class": {
+                "key": "heavy_weapon",
+                "types": [
+                    "heavy_weapon"
+                ]
+            },
+            "attribute": "attributeslib:current_hp_damage",
+            "operation": "ADDITION",
+            "values": {
+                "common": 0.025,
+                "uncommon": 0.05,
+                "rare": 0.1,
+                "epic": 0.15,
+                "mythic": 0.2,
+                "ancient": 0.25,
+                "esotericalapotheosis:artifact": 0.31,
+                "esotericalapotheosis:heirloom": 0.38,
+                "esotericalapotheosis:esoteric": 0.44,
+                "esotericalapotheosis:absolution": 0.5
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "gem_class": {
+                "key": "light_weapon",
+                "types": [
+                    "sword",
+                    "trident"
+                ]
+            },
+            "attribute": "minecraft:generic.attack_knockback",
+            "operation": "ADDITION",
+            "values": {
+                "common": 0.5,
+                "uncommon": 1,
+                "rare": 1.5,
+                "epic": 2,
+                "mythic": 3,
+                "ancient": 3.5,
+                "esotericalapotheosis:artifact": 4.38,
+                "esotericalapotheosis:heirloom": 5.25,
+                "esotericalapotheosis:esoteric": 6.12,
+                "esotericalapotheosis:absolution": 7.0
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "gem_class": {
+                "key": "core_armor",
+                "types": [
+                    "chestplate",
+                    "leggings"
+                ]
+            },
+            "attribute": "minecraft:generic.armor_toughness",
+            "operation": "ADDITION",
+            "values": {
+                "common": 0.5,
+                "uncommon": 1,
+                "rare": 1.5,
+                "epic": 2.5,
+                "mythic": 4,
+                "ancient": 6,
+                "esotericalapotheosis:artifact": 7.5,
+                "esotericalapotheosis:heirloom": 9.0,
+                "esotericalapotheosis:esoteric": 10.5,
+                "esotericalapotheosis:absolution": 12.0
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "gem_class": {
+                "key": "shield",
+                "types": [
+                    "shield"
+                ]
+            },
+            "attribute": "minecraft:generic.armor_toughness",
+            "operation": "MULTIPLY_TOTAL",
+            "values": {
+                "common": 0.05,
+                "uncommon": 0.1,
+                "rare": 0.15,
+                "epic": 0.225,
+                "mythic": 0.3,
+                "ancient": 0.425,
+                "esotericalapotheosis:artifact": 0.53,
+                "esotericalapotheosis:heirloom": 0.64,
+                "esotericalapotheosis:esoteric": 0.74,
+                "esotericalapotheosis:absolution": 0.85
+            }
+        },
+        {
+            "type": "apotheosis:mob_effect",
+            "gem_class": {
+                "key": "ranged_weapon",
+                "types": [
+                    "bow",
+                    "crossbow"
+                ]
+            },
+            "mob_effect": "attributeslib:bleeding",
+            "stack_on_reapply": true,
+            "target": "arrow_target",
+            "values": {
+                "mythic": {
+                    "duration": 160,
+                    "amplifier": 0,
+                    "cooldown": 40
+                },
+                "ancient": {
+                    "duration": 160,
+                    "amplifier": 1,
+                    "cooldown": 40
+                },
+                "esotericalapotheosis:artifact": {
+                    "duration": 160,
+                    "amplifier": 1,
+                    "cooldown": 40
+                },
+                "esotericalapotheosis:heirloom": {
+                    "duration": 160,
+                    "amplifier": 1,
+                    "cooldown": 40
+                },
+                "esotericalapotheosis:esoteric": {
+                    "duration": 160,
+                    "amplifier": 1,
+                    "cooldown": 40
+                },
+                "esotericalapotheosis:absolution": {
+                    "duration": 160,
+                    "amplifier": 1,
+                    "cooldown": 40
+                }
+            }
+        }
+    ]
+}

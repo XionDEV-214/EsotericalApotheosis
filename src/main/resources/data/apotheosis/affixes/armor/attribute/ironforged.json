@@ -1,0 +1,64 @@
+{
+    "type": "apotheosis:attribute",
+    "attribute": "minecraft:generic.armor",
+    "operation": "ADDITION",
+    "values": {
+        "common": {
+            "min": 1,
+            "steps": 1,
+            "step": 0
+        },
+        "uncommon": {
+            "min": 1,
+            "steps": 1,
+            "step": 0
+        },
+        "rare": {
+            "min": 1,
+            "steps": 4,
+            "step": 0.5
+        },
+        "epic": {
+            "min": 1,
+            "steps": 4,
+            "step": 0.5
+        },
+        "mythic": {
+            "min": 2,
+            "steps": 4,
+            "step": 0.5
+        },
+        "ancient": {
+            "min": 3,
+            "steps": 4,
+            "step": 0.5
+        },
+        "esotericalapotheosis:artifact": {
+            "min": 3.75,
+            "steps": 5,
+            "step": 0.625
+        },
+        "esotericalapotheosis:heirloom": {
+            "min": 4.5,
+            "steps": 6,
+            "step": 0.75
+        },
+        "esotericalapotheosis:esoteric": {
+            "min": 5.25,
+            "steps": 7,
+            "step": 0.875
+        },
+        "esotericalapotheosis:absolution": {
+            "min": 6.0,
+            "steps": 8,
+            "step": 1.0
+        }
+    },
+    "types": [
+        "helmet",
+        "chestplate",
+        "leggings",
+        "boots",
+        "shield"
+    ]
+}

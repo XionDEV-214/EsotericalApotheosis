@@ -1,0 +1,79 @@
+{
+    "variant": "lunar",
+    "weight": 10,
+    "quality": 0,
+    "dimensions": [],
+    "bonuses": [
+        {
+            "type": "apotheosis:attribute",
+            "gem_class": {
+                "key": "light_weapon",
+                "types": [
+                    "sword",
+                    "trident"
+                ]
+            },
+            "attribute": "attributeslib:cold_damage",
+            "operation": "ADDITION",
+            "values": {
+                "common": 1,
+                "uncommon": 1.5,
+                "rare": 2.5,
+                "epic": 4,
+                "mythic": 6,
+                "ancient": 8,
+                "esotericalapotheosis:artifact": 10.0,
+                "esotericalapotheosis:heirloom": 12.0,
+                "esotericalapotheosis:esoteric": 14.0,
+                "esotericalapotheosis:absolution": 16.0
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "gem_class": {
+                "key": "core_armor",
+                "types": [
+                    "chestplate",
+                    "leggings"
+                ]
+            },
+            "attribute": "forge:entity_gravity",
+            "operation": "MULTIPLY_TOTAL",
+            "values": {
+                "common": -0.1,
+                "uncommon": -0.25,
+                "rare": -0.45,
+                "epic": -0.65,
+                "mythic": -0.85,
+                "ancient": -1.04,
+                "esotericalapotheosis:artifact": -1.3,
+                "esotericalapotheosis:heirloom": -1.56,
+                "esotericalapotheosis:esoteric": -1.82,
+                "esotericalapotheosis:absolution": -2.08
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "gem_class": {
+                "key": "boots",
+                "types": [
+                    "boots"
+                ]
+            },
+            "attribute": "forge:swim_speed",
+            "operation": "MULTIPLY_BASE",
+            "values": {
+                "common": 0.1,
+                "uncommon": 0.2,
+                "rare": 0.3,
+                "epic": 0.45,
+                "mythic": 0.6,
+                "ancient": 0.8,
+                "esotericalapotheosis:artifact": 1.0,
+                "esotericalapotheosis:heirloom": 1.2,
+                "esotericalapotheosis:esoteric": 1.4,
+                "esotericalapotheosis:absolution": 1.6
+            }
+        }
+    ]
+}

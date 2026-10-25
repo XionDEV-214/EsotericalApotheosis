@@ -1,0 +1,60 @@
+{
+    "type": "apotheosis:attribute",
+    "attribute": "attributeslib:current_hp_damage",
+    "operation": "ADDITION",
+    "values": {
+        "common": {
+            "min": 0.05,
+            "steps": 5,
+            "step": 0.01
+        },
+        "uncommon": {
+            "min": 0.05,
+            "steps": 5,
+            "step": 0.01
+        },
+        "rare": {
+            "min": 0.05,
+            "steps": 5,
+            "step": 0.01
+        },
+        "epic": {
+            "min": 0.1,
+            "steps": 5,
+            "step": 0.01
+        },
+        "mythic": {
+            "min": 0.1,
+            "steps": 5,
+            "step": 0.01
+        },
+        "ancient": {
+            "min": 0.1,
+            "steps": 10,
+            "step": 0.01
+        },
+        "esotericalapotheosis:artifact": {
+            "min": 0.12,
+            "steps": 12,
+            "step": 0.013
+        },
+        "esotericalapotheosis:heirloom": {
+            "min": 0.15,
+            "steps": 15,
+            "step": 0.015
+        },
+        "esotericalapotheosis:esoteric": {
+            "min": 0.18,
+            "steps": 18,
+            "step": 0.018
+        },
+        "esotericalapotheosis:absolution": {
+            "min": 0.2,
+            "steps": 20,
+            "step": 0.02
+        }
+    },
+    "types": [
+        "heavy_weapon"
+    ]
+}

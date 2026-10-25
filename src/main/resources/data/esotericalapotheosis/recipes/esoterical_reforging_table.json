@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GSG",
+    "OBO",
+    "OOO"
+  ],
+  "key": {
+    "G": {
+      "item": "apotheosis:gem_dust"
+    },
+    "S": {
+      "item": "apotheosis:sigil_of_rebirth"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "B": {
+      "item": "apotheosis:reforging_table"
+    }
+  },
+  "result": {
+    "item": "esotericalapotheosis:esoterical_reforging_table"
+  }
+}

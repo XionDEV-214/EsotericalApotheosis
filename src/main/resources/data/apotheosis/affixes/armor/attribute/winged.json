@@ -1,0 +1,16 @@
+{
+    "type": "apotheosis:attribute",
+    "attribute": "attributeslib:elytra_flight",
+    "operation": "ADDITION",
+    "values": {
+        "mythic": 1,
+        "ancient": 1,
+        "esotericalapotheosis:artifact": 1.25,
+        "esotericalapotheosis:heirloom": 1.5,
+        "esotericalapotheosis:esoteric": 1.75,
+        "esotericalapotheosis:absolution": 2.0
+    },
+    "types": [
+        "chestplate"
+    ]
+}

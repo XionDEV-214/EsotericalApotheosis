@@ -1,0 +1,45 @@
+{
+    "type": "apotheosis:psychic",
+    "values": {
+        "rare": {
+            "min": 0.2,
+            "steps": 20,
+            "step": 0.01
+        },
+        "epic": {
+            "min": 0.3,
+            "steps": 25,
+            "step": 0.01
+        },
+        "mythic": {
+            "min": 0.4,
+            "steps": 30,
+            "step": 0.01
+        },
+        "ancient": {
+            "min": 0.6,
+            "steps": 50,
+            "step": 0.01
+        },
+        "esotericalapotheosis:artifact": {
+            "min": 0.75,
+            "steps": 62,
+            "step": 0.013
+        },
+        "esotericalapotheosis:heirloom": {
+            "min": 0.9,
+            "steps": 75,
+            "step": 0.015
+        },
+        "esotericalapotheosis:esoteric": {
+            "min": 1.05,
+            "steps": 88,
+            "step": 0.018
+        },
+        "esotericalapotheosis:absolution": {
+            "min": 1.2,
+            "steps": 100,
+            "step": 0.02
+        }
+    }
+}

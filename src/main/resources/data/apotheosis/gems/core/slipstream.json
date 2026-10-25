@@ -1,0 +1,80 @@
+{
+    "variant": "slipstream",
+    "weight": 10,
+    "quality": 0,
+    "unique": true,
+    "dimensions": [],
+    "bonuses": [
+        {
+            "type": "apotheosis:attribute",
+            "gem_class": {
+                "key": "ranged_weapon",
+                "types": [
+                    "bow",
+                    "crossbow"
+                ]
+            },
+            "attribute": "attributeslib:draw_speed",
+            "operation": "MULTIPLY_BASE",
+            "values": {
+                "common": 0.1,
+                "uncommon": 0.25,
+                "rare": 0.35,
+                "epic": 0.45,
+                "mythic": 0.5,
+                "ancient": 0.6,
+                "esotericalapotheosis:artifact": 0.75,
+                "esotericalapotheosis:heirloom": 0.9,
+                "esotericalapotheosis:esoteric": 1.05,
+                "esotericalapotheosis:absolution": 1.2
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "gem_class": {
+                "key": "breaker",
+                "types": [
+                    "shovel",
+                    "pickaxe"
+                ]
+            },
+            "attribute": "attributeslib:mining_speed",
+            "operation": "MULTIPLY_BASE",
+            "values": {
+                "common": 0.05,
+                "uncommon": 0.15,
+                "rare": 0.225,
+                "epic": 0.3,
+                "mythic": 0.375,
+                "ancient": 0.45,
+                "esotericalapotheosis:artifact": 0.56,
+                "esotericalapotheosis:heirloom": 0.68,
+                "esotericalapotheosis:esoteric": 0.79,
+                "esotericalapotheosis:absolution": 0.9
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "gem_class": {
+                "key": "boots",
+                "types": [
+                    "boots"
+                ]
+            },
+            "attribute": "attributeslib:dodge_chance",
+            "operation": "ADDITION",
+            "values": {
+                "common": 0.025,
+                "uncommon": 0.05,
+                "rare": 0.075,
+                "epic": 0.1,
+                "mythic": 0.125,
+                "ancient": 0.15,
+                "esotericalapotheosis:artifact": 0.19,
+                "esotericalapotheosis:heirloom": 0.22,
+                "esotericalapotheosis:esoteric": 0.26,
+                "esotericalapotheosis:absolution": 0.3
+            }
+        }
+    ]
+}

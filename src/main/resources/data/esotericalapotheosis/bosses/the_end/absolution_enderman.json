@@ -1,0 +1,78 @@
+{
+    "entity": "minecraft:enderman",
+    "weight": 0,
+    "quality": 0,
+    "size": {
+        "width": 0.6,
+        "height": 2.9
+    },
+    "valid_gear_sets": [
+        "#the_end"
+    ],
+    "dimensions": [
+        "minecraft:the_end"
+    ],
+    "min_rarity": "esotericalapotheosis:absolution",
+    "max_rarity": "esotericalapotheosis:absolution",
+    "stats": {
+        "esotericalapotheosis:absolution": {
+            "enchant_chance": 10.5,
+            "enchantment_levels": [
+                338,
+                285,
+                698,
+                548
+            ],
+            "effects": [
+                {
+                    "effect": "minecraft:fire_resistance",
+                    "chance": 1.0
+                }
+            ],
+            "attribute_modifiers": [
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "operation": "ADDITION",
+                    "value": {
+                        "min": 2100.0,
+                        "steps": 142,
+                        "step": 8.216
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": {
+                        "min": 0.6,
+                        "steps": 45,
+                        "step": 0.03
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "MULTIPLY_BASE",
+                    "value": {
+                        "min": 6.75,
+                        "steps": 115,
+                        "step": 0.192
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 1
+                },
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "ADDITION",
+                    "value": 75.0
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "operation": "ADDITION",
+                    "value": 37.5
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "entity": "minecraft:evoker",
+    "weight": 0,
+    "quality": 0,
+    "size": {
+        "width": 0.6,
+        "height": 1.95
+    },
+    "valid_gear_sets": [
+        "#the_end"
+    ],
+    "dimensions": [
+        "minecraft:the_end"
+    ],
+    "min_rarity": "esotericalapotheosis:esoteric",
+    "max_rarity": "esotericalapotheosis:esoteric",
+    "stats": {
+        "esotericalapotheosis:esoteric": {
+            "enchant_chance": 15.0,
+            "enchantment_levels": [
+                210,
+                180,
+                530,
+                455
+            ],
+            "effects": [
+                {
+                    "effect": "minecraft:fire_resistance",
+                    "chance": 1.0
+                }
+            ],
+            "attribute_modifiers": [
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "operation": "ADDITION",
+                    "value": {
+                        "min": 1500.0,
+                        "steps": 168,
+                        "step": 8.944
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": {
+                        "min": 0.5,
+                        "steps": 40,
+                        "step": 0.05
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "MULTIPLY_BASE",
+                    "value": {
+                        "min": 10.0,
+                        "steps": 112,
+                        "step": 0.089
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 1
+                },
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "ADDITION",
+                    "value": 85.0
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "operation": "ADDITION",
+                    "value": 40.0
+                }
+            ]
+        }
+    }
+}

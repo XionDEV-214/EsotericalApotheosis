@@ -1,0 +1,16 @@
+{
+  "item.esotericalapotheosis.artifact_material": "Rock of Mythflame",
+  "item.esotericalapotheosis.heirloom_material": "Judgement Core",
+  "item.esotericalapotheosis.esoteric_material": "Bloodfiend Crystal",
+  "item.esotericalapotheosis.absolution_material": "Ingot of Omniscience",
+  "item.apotheosis.gem.esotericalapotheosis:artifact": "Purified %s",
+  "item.apotheosis.gem.esotericalapotheosis:heirloom": "Refined %s",
+  "item.apotheosis.gem.esotericalapotheosis:esoteric": "Hyperionized %s",
+  "item.apotheosis.gem.esotericalapotheosis:absolution": "Cosmic %s",
+  "tooltip.esotericalapotheosis.reforge_table.desc": "Reforges gear beyond Ancient limits!",
+  "tooltip.esotericalapotheosis.reforge_table.desc2": "Supports up to %s",
+  "rarity.esotericalapotheosis:artifact": "Artifact",
+  "rarity.esotericalapotheosis:heirloom": "Heirloom",
+  "rarity.esotericalapotheosis:esoteric": "Esoteric",
+  "rarity.esotericalapotheosis:absolution": "Absolution"
+}

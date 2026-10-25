@@ -1,0 +1,103 @@
+{
+    "variant": "breach",
+    "weight": 10,
+    "quality": 0,
+    "dimensions": [],
+    "bonuses": [
+        {
+            "type": "apotheosis:attribute",
+            "gem_class": {
+                "key": "light_weapon",
+                "types": [
+                    "sword",
+                    "trident"
+                ]
+            },
+            "attribute": "attributeslib:armor_pierce",
+            "operation": "ADDITION",
+            "values": {
+                "common": 0.5,
+                "uncommon": 1,
+                "rare": 2,
+                "epic": 2.75,
+                "mythic": 3.5,
+                "ancient": 5.5,
+                "esotericalapotheosis:artifact": 6.88,
+                "esotericalapotheosis:heirloom": 8.25,
+                "esotericalapotheosis:esoteric": 9.62,
+                "esotericalapotheosis:absolution": 11.0
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "gem_class": {
+                "key": "heavy_weapon",
+                "types": [
+                    "heavy_weapon"
+                ]
+            },
+            "attribute": "attributeslib:armor_shred",
+            "operation": "ADDITION",
+            "values": {
+                "common": 0.05,
+                "uncommon": 0.1,
+                "rare": 0.125,
+                "epic": 0.15,
+                "mythic": 0.175,
+                "ancient": 0.25,
+                "esotericalapotheosis:artifact": 0.31,
+                "esotericalapotheosis:heirloom": 0.38,
+                "esotericalapotheosis:esoteric": 0.44,
+                "esotericalapotheosis:absolution": 0.5
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "gem_class": {
+                "key": "breaker",
+                "types": [
+                    "shovel",
+                    "pickaxe"
+                ]
+            },
+            "attribute": "forge:block_reach",
+            "operation": "ADDITION",
+            "values": {
+                "common": 0.5,
+                "uncommon": 1,
+                "rare": 1.5,
+                "epic": 2,
+                "mythic": 2.5,
+                "ancient": 3,
+                "esotericalapotheosis:artifact": 3.75,
+                "esotericalapotheosis:heirloom": 4.5,
+                "esotericalapotheosis:esoteric": 5.25,
+                "esotericalapotheosis:absolution": 6.0
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "gem_class": {
+                "key": "ranged_weapon",
+                "types": [
+                    "bow",
+                    "crossbow"
+                ]
+            },
+            "attribute": "attributeslib:prot_pierce",
+            "operation": "ADDITION",
+            "values": {
+                "common": 0.5,
+                "uncommon": 1,
+                "rare": 2,
+                "epic": 3,
+                "mythic": 4,
+                "ancient": 5,
+                "esotericalapotheosis:artifact": 6.25,
+                "esotericalapotheosis:heirloom": 7.5,
+                "esotericalapotheosis:esoteric": 8.75,
+                "esotericalapotheosis:absolution": 10.0
+            }
+        }
+    ]
+}

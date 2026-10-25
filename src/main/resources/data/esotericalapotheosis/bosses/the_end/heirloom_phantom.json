@@ -1,0 +1,78 @@
+{
+    "entity": "minecraft:phantom",
+    "weight": 5,
+    "quality": 5,
+    "size": {
+        "width": 0.9,
+        "height": 0.5
+    },
+    "valid_gear_sets": [
+        "#the_end"
+    ],
+    "dimensions": [
+        "minecraft:the_end"
+    ],
+    "min_rarity": "esotericalapotheosis:heirloom",
+    "max_rarity": "esotericalapotheosis:heirloom",
+    "stats": {
+        "esotericalapotheosis:heirloom": {
+            "enchant_chance": 4.9,
+            "enchantment_levels": [
+                158,
+                133,
+                326,
+                256
+            ],
+            "effects": [
+                {
+                    "effect": "minecraft:fire_resistance",
+                    "chance": 1.0
+                }
+            ],
+            "attribute_modifiers": [
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "operation": "ADDITION",
+                    "value": {
+                        "min": 833.0,
+                        "steps": 82,
+                        "step": 4.771
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": {
+                        "min": 0.51,
+                        "steps": 38,
+                        "step": 0.0255
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "MULTIPLY_BASE",
+                    "value": {
+                        "min": 2.678,
+                        "steps": 67,
+                        "step": 0.111
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 1
+                },
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "ADDITION",
+                    "value": 29.75
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "operation": "ADDITION",
+                    "value": 14.88
+                }
+            ]
+        }
+    }
+}

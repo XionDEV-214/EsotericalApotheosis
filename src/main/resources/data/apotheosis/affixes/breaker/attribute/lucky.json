@@ -1,0 +1,51 @@
+{
+    "type": "apotheosis:attribute",
+    "attribute": "minecraft:generic.luck",
+    "operation": "ADDITION",
+    "values": {
+        "rare": {
+            "min": 0.5,
+            "steps": 2,
+            "step": 0.5
+        },
+        "epic": {
+            "min": 0.5,
+            "steps": 3,
+            "step": 0.5
+        },
+        "mythic": {
+            "min": 1,
+            "steps": 4,
+            "step": 0.5
+        },
+        "ancient": {
+            "min": 2,
+            "steps": 6,
+            "step": 0.5
+        },
+        "esotericalapotheosis:artifact": {
+            "min": 2.5,
+            "steps": 8,
+            "step": 0.625
+        },
+        "esotericalapotheosis:heirloom": {
+            "min": 3.0,
+            "steps": 9,
+            "step": 0.75
+        },
+        "esotericalapotheosis:esoteric": {
+            "min": 3.5,
+            "steps": 10,
+            "step": 0.875
+        },
+        "esotericalapotheosis:absolution": {
+            "min": 4.0,
+            "steps": 12,
+            "step": 1.0
+        }
+    },
+    "types": [
+        "pickaxe",
+        "shovel"
+    ]
+}

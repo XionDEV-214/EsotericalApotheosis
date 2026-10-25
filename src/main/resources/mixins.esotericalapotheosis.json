@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.esotericalapotheosis.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "mixins.esotericalapotheosis.refmap.json",
+  "mixins": [
+    "MixinAncientReforgingTableBlock",
+    "MixinLootRarity"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
