@@ -6,7 +6,11 @@
   "refmap": "mixins.esotericalapotheosis.refmap.json",
   "mixins": [
     "MixinAncientReforgingTableBlock",
-    "MixinLootRarity"
+    "MixinLootRarity",
+    "MixinSalvagingMenu"
+  ],
+  "client": [
+    "client.MixinSalvagingScreen"
   ],
   "injectors": {
     "defaultRequire": 1
